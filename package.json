@@ -1,0 +1,12 @@
+{
+  "name": "TypeScript & NodeJs 45 Assignment",
+  "version": "1.0.0",
+  "description": "In this repository i have solved 45 Assignment of Governer Sindh IT Initiative.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tayyaba Ramzan (Roll No): 482846",
+  "license": "ISC"
+}
