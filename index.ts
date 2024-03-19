@@ -24,9 +24,9 @@ console.log(`${author} once said, "${quote}" `);
 
 
 // Assignment NO 5
-// let famous_person:string="Albert Einstein";
-// let message:string=`${famous_person} once said, ${quote}`;
-// console.log(message);
+let famous_person:string="Albert Einstein";
+let message:string=`${famous_person} once said, ${quote}`;
+console.log(message);
             //  ------------xxx------------
 
 // Assignment NO 6
