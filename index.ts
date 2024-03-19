@@ -13,6 +13,7 @@ console.log(`"Hello ${personName} would you like to learn some Python today?"`);
 let person_name:string="Tayyaba Ramzan";
 console.log(person_name.toLowerCase());
 console.log(person_name.toUpperCase());
+console.log(person_name.charAt(0).toUpperCase() + person_name.slice(1).toLowerCase())
             //  ------------xxx------------
 
 // Assignment NO 4
@@ -35,10 +36,10 @@ console.log("Stripped:",PersonName.trim());
             //  ------------xxx------------
 
 // Assignment NO 7
-// console.log(5+3);    Addition
-// console.log(10-2);   Subtraction
-// console.log(4*2);    Multipication
-// console.log(64/8);   Division  
+ console.log(5+3);   // Addition
+ console.log(10-2);  // Subtraction
+ console.log(4*2);   // Multipication
+ console.log(64/8);  // Division  
             //  ------------xxx------------ 
 
 // Assignment NO 8
@@ -99,12 +100,12 @@ guestArr.map((guestArr)=>console.log(`Dear ${guestArr}, You are invited to the d
            //  ------------xxx------------
 
 // Assignment NO 16
-// let guestArr:string[]=["Saima","Fatima","Sumaira"];
-// let canNotAttend:string="Saima";
-// let newGuest:string="Muskan";
-// guestArr[guestArr.indexOf(canNotAttend)]=newGuest;
-// console.log(guestArrArr);
-// guestArrArr.map((guestArrArr=>console.log(`Dear ${guestArrArr}, I found a bigger dinner table so I am invited more people.`)));
+let guestArr:string[]=["Saima","Fatima","Sumaira"];
+let canNotAttend:string="Saima";
+let newGuest:string="Muskan";
+guestArr[guestArr.indexOf(canNotAttend)]=newGuest;
+console.log(guestArrArr);
+guestArrArr.map((guestArrArr=>console.log(`Dear ${guestArrArr}, I found a bigger dinner table so I am invited more people.`)));
 
 // Part II
 let guestBeg:string="Sidra";
@@ -126,17 +127,17 @@ guestArr.map((items)=>console.log(`Dear ${items}, You are invited to the more pe
             //  ------------xxx------------
 
 // Assignment NO 17
-// let guests:string[]=["Ali","Ahmed","Umer","Arhem","Ahsan"];
+let guests:string[]=["Ali","Ahmed","Umer","Arhem","Ahsan"];
 
-// while(guests.length>2){
-//     const removeGuest=guests.pop();
-//     console.log(`Sorry, ${removeGuest}, You are no longer invited to dinner.`); 
-// }
-// guests.forEach(guest)=>{
-//     console.log(`Dear ${guest}, You are still invited to dinner.`);
-// }
-// guests.pop();
-// guests.pop();
+while(guests.length>2){
+    const removeGuest=guests.pop();
+    console.log(`Sorry, ${removeGuest}, You are no longer invited to dinner.`); 
+}
+guests.forEach(guest)=>{
+    console.log(`Dear ${guest}, You are still invited to dinner.`);
+}
+guests.pop();
+guests.pop();
           //  ------------xxx------------
 
 // Assignment NO 18
@@ -267,32 +268,32 @@ if (cities.includes("Hyderabad")) {
        //  ------------xxx------------
 // Assignment NO 25
 // Part I
-// let alien_color:string="Green";
-// if(alien_color=="Green"){
-//     console.log("You earned just earned 5 points.");  
-// }
+let alien_color:string="Green";
+if(alien_color=="Green"){
+    console.log("You earned just earned 5 points.");  
+}
 
 // Part II
-// let alien_color:string="Red";
-// if (alien_color=="Red") {
-//     console.log("No Ouptut");  
-// }
+let alien_color:string="Red";
+if (alien_color=="Red") {
+    console.log("No Ouptut");  
+}
           //  ------------xxx------------
 
 // Assignment NO 26
-// let alien_color:string="Green";
-// if (alien_color=="Green") {
-//     console.log("Player just earned 5 points for shooting the alien.");
-// } else {
-//     console.log("Player just earned 10 points.");  
-// }
+let alien_color:string="Green";
+if (alien_color=="Green") {
+    console.log("Player just earned 5 points for shooting the alien.");
+} else {
+    console.log("Player just earned 10 points.");  
+}
 
 // let alien_color:string="Red";
-// if (alien_color=="Green") {
-//     console.log("Player just earned 5 points for shooting the alien.");
-// } else {
-//     console.log("Player just earned 10 points.");  
-// }
+if (alien_color=="Green") {
+    console.log("Player just earned 5 points for shooting the alien.");
+} else {
+    console.log("Player just earned 10 points.");  
+}
           //  ------------xxx------------
 
 // Assignment NO 27
@@ -351,16 +352,16 @@ if (favorite_fruits.indexOf("Apple")) {
             //  ------------xxx------------
 
 // Assignment NO 30
-// let users:string[]=["Eric","Haseeb","Ali","Fatima","Admin"];
-// for(let user of users){
-//     if (user==="Admin") {
-//         console.log("Hello admin, would you like to see a status report?");
-//     }
-//     else{
-//         console.log(`Hello ${user}, thank you for logging in again.`);
+let users:string[]=["Eric","Haseeb","Ali","Fatima","Admin"];
+for(let user of users){
+    if (user==="Admin") {
+        console.log("Hello admin, would you like to see a status report?");
+    }
+    else{
+        console.log(`Hello ${user}, thank you for logging in again.`);
         
-//     }
-// }
+    }
+}
            //  ------------xxx------------
 
 // Assignment NO 31
@@ -451,11 +452,11 @@ console.log(`All of these are great pets! but I love cats more.`);
 
 // Assignment NO 36
 
-// function make_shirt(size:string,text:string):void {
-//     console.log(`You order a ${size} shirt that boys ${text}`);   
-// }
-// make_shirt('large','"I Love TypeScript"');
-// make_shirt('medium','"I need a big shirt"');
+function make_shirt(size:string,text:string):void {
+    console.log(`You order a ${size} shirt that boys ${text}`);   
+}
+make_shirt('large','"I Love TypeScript"');
+make_shirt('medium','"I need a big shirt"');
             //  ------------xxx------------
 
 // Assignment NO 37
